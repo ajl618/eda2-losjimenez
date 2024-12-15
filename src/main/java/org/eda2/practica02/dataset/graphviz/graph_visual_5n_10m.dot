@@ -1,0 +1,27 @@
+digraph graph_visual_5n_5m {
+
+	layout=circo
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif", fontsize=19, style=filled, shape=circle, height=0.25, color="#76b5c5", fillcolor="#b7d7e8"]
+	edge [fontname="Helvetica,Arial,sans-serif", fontsize=12, color="#f2b1d8", penwidth=2]
+	rankdir=LR;
+
+	node [style=filled, shape=circle, height=0.25]
+	edge [dir=none]
+	1	[xlabel=1, label=""]
+	2	[xlabel=2, label=""]
+	3	[xlabel=3, label=""]
+	4	[xlabel=4, label=""]
+	5	[xlabel=5, label=""]
+
+	2 -> 1 [label=35.549 ]
+	3 -> 2 [label=54.441 ]
+	4 -> 1 [label=44.225 ]
+	5 -> 1 [label=54.345 ]
+	1 -> 3 [label=59.554 ]
+	3 -> 4 [label=48.237 ]
+	4 -> 5 [label=44.139 ]
+	2 -> 5 [label=87.739 ]
+	3 -> 5 [label=78.13 ]
+	2 -> 4 [label=72.896 ]
+}

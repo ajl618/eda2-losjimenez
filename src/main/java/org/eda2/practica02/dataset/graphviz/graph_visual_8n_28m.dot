@@ -1,0 +1,48 @@
+digraph graph_visual_8n_8m {
+
+	layout=circo
+	fontname="Helvetica,Arial,sans-serif"
+	node [fontname="Helvetica,Arial,sans-serif", fontsize=19, style=filled, shape=circle, height=0.25, color="#76b5c5", fillcolor="#b7d7e8"]
+	edge [fontname="Helvetica,Arial,sans-serif", fontsize=12, color="#f2b1d8", penwidth=2]
+	rankdir=LR;
+
+	node [style=filled, shape=circle, height=0.25]
+	edge [dir=none]
+	1	[xlabel=1, label=""]
+	2	[xlabel=2, label=""]
+	3	[xlabel=3, label=""]
+	4	[xlabel=4, label=""]
+	5	[xlabel=5, label=""]
+	6	[xlabel=6, label=""]
+	7	[xlabel=7, label=""]
+	8	[xlabel=8, label=""]
+
+	2 -> 1 [label=6.559 ]
+	3 -> 1 [label=92.647 ]
+	4 -> 1 [label=32.685 ]
+	5 -> 4 [label=56.978 ]
+	6 -> 3 [label=47.551 ]
+	7 -> 1 [label=70.151 ]
+	8 -> 2 [label=58.98 ]
+	2 -> 5 [label=64.407 ]
+	3 -> 7 [label=23.536 ]
+	1 -> 5 [label=25.42 ]
+	3 -> 8 [label=19.486 ]
+	4 -> 8 [label=59.828 ]
+	5 -> 6 [label=23.45 ]
+	4 -> 7 [label=93.175 ]
+	3 -> 5 [label=2.814 ]
+	7 -> 8 [label=29.319 ]
+	1 -> 8 [label=72.828 ]
+	5 -> 8 [label=16.727 ]
+	6 -> 7 [label=68.735 ]
+	1 -> 6 [label=25.481 ]
+	2 -> 4 [label=5.584 ]
+	4 -> 6 [label=7.866 ]
+	3 -> 4 [label=74.506 ]
+	2 -> 6 [label=100.618 ]
+	2 -> 7 [label=88.659 ]
+	5 -> 7 [label=97.899 ]
+	6 -> 8 [label=5.777 ]
+	2 -> 3 [label=39.561 ]
+}

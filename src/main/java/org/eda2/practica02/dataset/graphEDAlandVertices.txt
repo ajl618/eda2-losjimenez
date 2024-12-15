@@ -1,0 +1,22 @@
+21
+Almeria 358 389
+Granada 271 373
+Cadiz 142 400
+Huelva 85 370
+Sevilla 173 354
+Jaen 246 307
+Murcia 378 330
+Caceres 142 196
+Badajoz 129 273
+Albacete 349 269
+Valencia 415 241
+Madrid 271 193
+Barcelona 495 138
+Gerona 553 78
+Lerida 461 55
+Zaragoza 378 125
+Bilbao 309 32
+Oviedo 197 32
+Valladolid 214 132
+Vigo 70 91
+Corunya 89 32
